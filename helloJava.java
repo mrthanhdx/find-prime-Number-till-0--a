@@ -7,12 +7,13 @@ public class helloJava {
         //gan mac dinh prime la false
        boolean isPrime = false;
     int a = scanner.nextInt();
-    //mac dinh so 1 ,2 la so nguyen to ko can check
-        System.out.print(1+" ");
-        System.out.print(2+" ");
 
         if(a>2&&a<1000){
-                for (int i=3;i<=a;i++){
+            //mac dinh so 1 ,2 la so nguyen to ko can check
+            System.out.print(1+" ");
+            System.out.print(2+" ");
+
+            for (int i=3;i<=a;i++){
                     //gan true neu i la so nguyen to
                     isPrime =true;
                     for (int j =2;j<i;j++){
